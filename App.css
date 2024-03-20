@@ -1,0 +1,38 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.editor {
+  width: 80%;
+  min-height: 300px;
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  outline: none;
+  overflow-y: auto;
+}
+
+.editor:focus {
+  border: 2px solid #00bfff;
+}
+
+.placeholder {
+  color: #888;
+}
+
+.counts {
+  margin-top: 10px;
+}
